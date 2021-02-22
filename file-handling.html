@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+</head>
+<body>
+
+  <h1 style="background-color:DodgerBlue;">Registration Form</h1>
+
+
+  <form action="file-handling.php" method="POST">
+    
+<fieldset>
+
+  <h2 style="background-color:Violet;">Basic Information</h2>
+
+    <label for="firstname">First Name:</label>
+    <input type="text" id="firstname" name="fname">
+
+    <br>
+    
+    <label for="lastname">Last Name:</label>
+    <input type="text" id="lastname" name="lname">
+
+    <br>
+
+      <label for="gender">Gender:</label>
+
+      <br>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br>
+      <input type="radio" id="other" name="gender" value="other">
+      <label for="other">Other</label>
+
+      <br>
+
+
+     <label for="email">Enter your email:</label>
+     <input type="email" id="email" name="email">
+
+     <br>
+
+      </fieldset>
+
+
+
+
+
+      <fieldset>
+
+      
+      <h3 style="background-color:Violet;">User Account Information</h3>
+
+    <br>
+
+    <label for="userame">User Name:</label>
+    <input type="text" id="userame" name="uname">
+
+    <br>
+      
+      <label for="pwd">Password:</label>
+      <input type="password" id="pwd" name="pwd">
+
+  
+      <br>
+
+
+     <label for="recoveryemail">Enter your recovery email:</label>
+     <input type="email" id="recoveryemail" name="remail">
+
+     <br>
+
+
+
+
+
+
+     </fieldset>
+
+
+
+
+
+     <input type="submit" value="Register">
+
+
+
+     
+     </form>
+
+</body>
+</html>
